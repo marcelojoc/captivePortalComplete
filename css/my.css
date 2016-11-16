@@ -1,0 +1,159 @@
+@font-face {
+    font-family: "Saya";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/Saya Serif FY Light Italic.woff") format("woff"), url("../fonts/SayaSerifFY-LtItalic.otf") format("opentype");
+}
+
+body{
+
+font-family: "Saya";
+font-size: 1.95em;
+}
+
+input[type=text ] {
+    color: #231F20;
+    font-size: 0.9em;
+}
+
+input[type=email ] {
+    color: #231F20;
+    font-size: 0.9em;
+}
+
+.social{
+     color: #231F20;
+ }
+
+.wifi_borde{
+    border-bottom: 1em solid #A1A3A6;
+    margin-left: 1em;
+}
+
+
+/*Legal*/
+
+.legal{
+
+font-size: 0.8em;
+
+}
+
+.deshabilitar{
+
+display: none;
+
+}
+.habilitar{
+
+display: block;
+
+}
+
+
+
+/*cambio en el boton*/
+
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(255, 255, 255, 0.25);
+  background-color: #000;
+  border: solid 1px gray;
+}
+ 
+
+ 
+/* Estilos del estado :hover del botón */
+
+.btn-ttc:hover {
+  background-position: 0 -15px;
+  background-color: #A1A3A6;
+  color: #fff;
+}
+
+
+
+
+
+@media (min-width: 769px) 
+{ 
+    
+
+.wifi_content {
+    background-color: #A1A3A6;
+    margin-bottom:0.5em;
+    width: 30%;
+    color: white;
+    padding-top:0.5em;
+    border: 0.4em solid #fff ;
+    z-index: 9999;
+    margin-top: -4%;
+    margin-bottom: 5%;
+}
+
+
+.wifi_content p{
+    font-size: 0.8em;
+    padding: 0.7em;
+    margin: auto;
+    text-align: center;
+}
+
+
+.wifi_content i{
+  position: relative;
+  display: block;
+  text-align: center;
+    
+}
+
+.slide_relativo{
+    position: relative;
+}
+
+    
+}
+
+
+
+
+@media (max-width: 768px ) {
+
+    .wifi_content{
+        background-color: #A1A3A6;
+        margin-bottom:0.5em;
+        width: 65%;
+        color: white;
+        padding-top:0.5em;
+    }
+
+    .wifi_content p{
+        font-size: 0.8em;
+        padding: 0.7em;
+        margin: auto;
+        text-align: center;
+    }
+
+
+    .wifi_content i{
+    position: relative;
+    display: block;
+    text-align: center;
+        
+    }
+
+    .logo_movil img{
+        width: 50%; 
+        height: 50%;
+
+    }
+  
+}
+
+
+
+/*@media (min-width: @screen-sm-min) and (max-width: @screen-sm-max) { ... }
+@media (min-width: @screen-md-min) and (max-width: @screen-md-max) { ... }
+@media (min-width: @screen-lg-min) { ... }*/
